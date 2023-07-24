@@ -6,8 +6,8 @@ namespace WebApi.Data
     {    
         public static List<StudentDto> StudentList = new List<StudentDto>
             {
-                new StudentDto{ Id=1 , Name="vishal"},
-                new StudentDto{Id=2 , Name="amruta"}
+                new StudentDto{ Id=1 , Name="vishal" , City="Nashik"},
+                new StudentDto{Id=2 , Name="amruta", City= "Malegaon"}
             };
     }
 }
